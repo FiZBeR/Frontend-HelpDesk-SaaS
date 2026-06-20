@@ -149,6 +149,44 @@ export const Login = () => {
             </a>
           </div>
         </div>
+
+        {/* card acceso*/}
+        <div class="bg-background flex items-center justify-center pt-5">
+          {/* Standalone Success Toast Component */}
+          <div
+            class="bg-[#1a4331] border-2 border-[#4de082] rounded-lg p-sm toast-glow transition-all duration-300 transform hover:scale-105"
+            role="alert"
+          >
+            <div class="flex items-start gap-sm p-1.75">
+              {/* Icon Pillar */}
+              <div class="flex-shrink-0 mt-xs">
+                <span
+                  class="material-symbols-outlined text-[#4de082]"
+                  data-icon="check_circle"
+                >
+                  check_circle
+                </span>
+              </div>
+              {/* Content Pillar */}
+              <div class="flex flex-col gap-xs">
+                <ul class="list-none m-0 p-0 space-y-1">
+                  <li class="flex items-center gap-xs px-1.5">
+                    <b class="font-headline-md text-body-md text-on-[#1a4331] font-bold tracking-tight">
+                      Username:&nbsp;
+                    </b> cristian
+                  </li>
+                  <li class="flex items-center gap-xs px-1.5">
+                    <b class="font-headline-md text-body-md text-on-[#1a4331] font-bold tracking-tight">
+                      Password:&nbsp;
+                    </b> 123password
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+            
+          </div>
+        </div>
       </div>
     </section>
   );
